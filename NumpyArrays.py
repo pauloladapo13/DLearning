@@ -46,3 +46,6 @@ print(a)
 
 em= pd.DataFrame({"weight": pd.Series([60, 80, 100], index=["Ram", "Sam", "Max"]), "dob": pd.Series([1990,1970,1991], index=["Ram", "Max", "Sam"], name="year"), "hobby": pd.Series(["Reading", "Singing"], index=["Ram ", "Max"])})
 print(em)
+# head(n) or tail(n); to display the top
+# info(): to display information
+# describe(): to display handy aggregate and statistical information
